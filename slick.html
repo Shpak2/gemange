@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  </head>
+  <body>
+    <header class="wrap">
+      <nav id="main-menu" class="navbar bg_white_nav">
+        <a class="logo" href="/">
+          <img id="img_logo" src="assets/img/styles_img/logo_black.svg" alt="Главная" />
+        </a>
+        <ul class="list">
+          <li><a class="bg_white_a" href="#">Каталог</a></li>
+          <li><a class="bg_white_a" href="#">Распродажа</a></li>
+          <li><a class="bg_white_a" href="#">Контакты</a></li>
+          <li><a href="#" class="users bg_white_a">Мой аккаунт</a></li>
+        </ul>
+        <ul class="list-btn">
+          <li class="btn-user bg_white_user"></li>
+          <li class="btn-search bg_white_search"></li>
+          <li class="btn-cad bg_white_cad"></li>
+          <li class="btn-menu">
+            <div class="hamburger bg_white_hamburger"></div>
+          </li>
+        </ul>
+      </nav>
+      <div class="search">
+          <form>
+              <input class="search_image" type="image" src="assets/img/styles_img/search.png">
+              <input class="search_input" type=search name="search" placeholder="Введите интерисуемый товар">
+              <button class="close"></button>
+             </form>
+      </div>
+      
+    </header>
+<!--Sidebar-->
+    <div class="wrap">
+      <div class="sidebar_page">
+        <a href="/">Главная</a> /
+        <a href="#">Магазин</a> /
+        <a href="#">Леггинсы</a>
+      </div>
+    </div>
+    
+<!--Карточка товара--> 
+  
+      
+
+    <!--Второй контейнер-->
+    <div class="wrap">
+      <div class="text-center con-brend">
+        <h2 class="page_h2">Мы рекомендуем</h2>
+        <p>Похожие товары, которые могут заинтересовать вас</p>
+      </div>
+    </div>
+    <!--Категории-->
+    <div class="wrap">
+      <div class="category media-cat">
+        <div class="row-cat">
+          <img src="assets/img/legins.png" alt="">
+          <div class="infos">
+              <p>Леггинсы Boden</p>
+              <i>&#36;105</i>
+          </div>
+          <button class="btn-add">Добавить в корзину</button>
+          <div class="choise">
+            <div><p>Скидка</p></div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <button class="btn-look">Смотреть</button>
+          </div>
+        </div>
+        <div class="row-cat">
+          <img src="assets/img/ruth.png" alt="">
+          <div class="infos">
+              <p>Топ Raymond</p>
+              <i>&#36;105</i>
+          </div>
+          <button class="btn-add">Добавить в корзину</button>
+          <div class="choise">
+            <div><p>Скидка</p></div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <button class="btn-look">Смотреть</button>
+          </div>
+        </div>
+        
+        <div class="row-cat">
+          <img src="assets/img/reymond.png" alt="">
+          <div class="infos">
+              <p>Кроп Ruth</p>
+              <i>&#36;105</i>
+          </div>
+          <button class="btn-add">Добавить в корзину</button>
+          <div class="choise">
+            <div><p>Скидка</p></div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <button class="btn-look">Смотреть</button>
+          </div>
+        </div>
+        <div  class="row-cat">
+          <img src="assets/img/boden.png" alt="">
+          <div class="infos">
+              <p>Кроп Ruth</p>
+              <i>&#36;105</i>
+          </div>
+          <button class="btn-add">Добавить в корзину</button>
+          <div class="choise">
+            <div><p>Скидка</p></div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <button class="btn-look">Смотреть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+      <!--Footer-->
+      <footer class="wrap">
+        <div>
+            <ul>
+                <li><a href="#">Что мы делаем?</a></li>
+                <li><a href="#">Отслеживание заказа</a></li>
+                <li><a href="#">Свяжитесь с нами</a></li>
+              </ul>
+              <p>Copyright© gemange.ru</p>
+              <!-- <p>Site made by Shpakov Evgeniy</p> -->
+              <ul class="share">
+                <p>Подписывайтесь на нас:</p>
+                <li class="icon-facebook"><a href="#"></a></li>
+                <li class="icon-instagram"><a href="#"></a></li>
+                <li class="icon-vkontakte"><a href="#"></a></li>
+              </ul>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+    <script src="assets/fonts/slick/slick.min.js"></script>
+    <script>
+        $(".category").slick({
+          centerMode: true,
+          centerPadding: "20px",
+          slidesToShow: 4,
+          arrows: false,
+          responsive: [
+          {
+            breakpoint: 1150,
+            settings: {
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 3,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 900,
+            settings: {
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 2,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 630,
+            settings: {
+              centerMode: true,
+              centerPadding: "100px",
+              slidesToShow: 1,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              centerMode: true,
+              centerPadding: "10px",
+              slidesToShow: 1,
+              arrows: false
+            }
+          }
+        ]
+        });
+      </script>
+  </body>
+</html>
